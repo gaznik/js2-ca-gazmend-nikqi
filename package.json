@@ -1,0 +1,29 @@
+{
+  "name": "js2-ca-gazmend-nikqi",
+  "version": "1.0.0",
+  "description": "Course assignment for JavaScript 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaznik/js2-ca-gazmend-nikqi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaznik/js2-ca-gazmend-nikqi/issues"
+  },
+  "homepage": "https://github.com/gaznik/js2-ca-gazmend-nikqi#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.58.2"
+  }
+}
