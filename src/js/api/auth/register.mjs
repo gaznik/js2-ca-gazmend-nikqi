@@ -1,4 +1,3 @@
-import { API_BASE_URL } from "../api_variables.mjs";
 import { API_BASE_URL_SOCIAL } from "../api_variables.mjs";
 
 const action = "/auth/register";
