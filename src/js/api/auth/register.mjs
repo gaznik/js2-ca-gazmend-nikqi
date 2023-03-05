@@ -13,6 +13,7 @@ export async function register(profile){
         body: JSON.stringify(profile)
     })
 
-    const results = await response.json()
-    console.log(results)
-}
+    const results = await response.json();
+    alert("Registration successfull");
+    console.log(results);
+};

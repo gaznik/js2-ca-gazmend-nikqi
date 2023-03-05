@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/dist/css/styles.css">
     <script src="/src/js/index.mjs" defer type="module"></script>
-    <title>Register page</title>
+    <title>login page</title>
 </head>
 
 <body>
@@ -17,8 +17,8 @@
       <nav>
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
           <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="index.html" class="nav-link px-2 text-secondary">Home</a></li>
-            <li><a href="profile.html" class="nav-link px-2 text-secondary">Profile</a></li>
+            <li><a href="/profile/login/index.html" class="nav-link px-2 text-secondary">Home</a></li>
+            <li><a href="/profile/register/index.html" class="nav-link px-2 text-secondary">Profile</a></li>
           </ul>
           <div class="text-end">
             <a href="/profile/login/index.html"><button type="button" class="btn btn-light">Login</button></a>
@@ -33,35 +33,28 @@
     <div class="container">
       <div class="row">
         <div class="col-10 col-md-7 col-lg-5 mt-5">
-          <form action="######" id="register">
-            <h1 class="h3 mb-3 fw-normal">Register</h1>
-            <!-- NAME -->
-            <div class="form-floating mb-3">
-              <input type="name" name="name" class="form-control" id="floatingInput name" placeholder="Name" pattern="^[\w]+$" required>
-              <label for="floatingInput">Name</label>
-            </div>
+          <form action="######" id="login">
+            <h1 class="h3 mb-3 fw-normal">login</h1>
+    
             <!-- EMAIL -->
             <div class="form-floating mb-3">
-              <input type="email" name="email" class="form-control" id="floatingInput email" placeholder="name@example.com" pattern="^[\w\-.]+@(stud.)?noroff.no$" required>
+              <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com" pattern="^[\w\-.]+@(stud.)?noroff.no$" required>
               <label for="floatingInput">Email address</label>
             </div>
+
             <!-- PASSWORD -->
             <div class="form-floating mb-3">
               <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password" minLength= "8" required>
               <label for="floatingPassword">Password</label>
             </div>
-            <!-- IMAGE -->
-            <div class="form-floating mb-3">
-              <input type="link" name="" class="form-control" id="floatingInput" placeholder="Image">
-              <label for="floatingInput">Image</label>
-            </div>
+            
             <!-- REMEMBER ME TICK -->
             <div class="checkbox mb-3">
               <label>
                 <input type="checkbox" value="remember-me"> Remember me
               </label>
             </div>
-            <button class="w-100 btn btn-lg btn-primary" type="submit">Register</button>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
             <p class="mt-5 mb-3 text-muted">© 2023</p>
         </form>
       </div>
