@@ -1,8 +1,8 @@
 import { userIsLoggedIn } from "./api/userIsLoggedIn.mjs";
 
 
-if (userIsLoggedIn()) {
+    if (userIsLoggedIn()) {
     window.location.pathname = '/post/index.html';
-} else {
+    } else {
     window.location.pathname = '/login.html';
-}
+    }
