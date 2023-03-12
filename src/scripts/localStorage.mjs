@@ -13,7 +13,9 @@ export function load(key, value){
 
 
 export function remove(key, value){
-    localStorage.removeItem(key);
+    localStorage.removeItem('token');
+    localStorage.removeItem('profile');
+    window.location.pathname = '/index.html';
 };
 
 export function retrieveAccessToken() {
