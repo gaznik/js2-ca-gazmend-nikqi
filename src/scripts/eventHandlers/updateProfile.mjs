@@ -2,13 +2,12 @@ import { updateProfile } from "../api/profile/index.mjs";
 import { readProfile } from "../api/profile/index.mjs";
 import { load } from "../localStorage.mjs";
 
-export async function setUpdateProfileFormListener(){
+export async function updateProfileListener(){
     const form = document.querySelector("#editProfile");
 
     
     
     if (form){
-        //Get name and email from local storage
         const { name, email } = load("profile");
         form.name.value = name;
         form.email.value = email;
