@@ -1,2 +1,10 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../variables";
+
+.post{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    margin: 2em;
+    border: 1px solid black;
+}
