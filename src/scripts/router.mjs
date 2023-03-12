@@ -18,7 +18,7 @@ switch (path){
         listeners.updatePostEventListener()
         break;
     case '/profile/edit/':
-        listeners.setUpdateProfileFormListener()
+        listeners.updateProfileListener()
         break;
 };
 
