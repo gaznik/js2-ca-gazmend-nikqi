@@ -7,34 +7,35 @@
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/dist/css/styles.css">
     <script src="/src/scripts/index.mjs" defer type="module"></script>
+    
+    
     <title>login page</title>
-    <script src="/src/scripts/redirect.mjs" defer type="module"></script>
+    
 </head>
-
-<body>
-  <!-- HEADER -->
-  <header class="p-3 text-bg-primary">
-    <div class="container">
-      <nav>
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="/profile/login/index.html" class="nav-link px-2 text-secondary">Home</a></li>
-            <li><a href="/profile/register/index.html" class="nav-link px-2 text-secondary">Profile</a></li>
-          </ul>
-          <div class="text-end">
-            <a href="/profile/login/index.html"><button type="button" class="btn btn-light">Login</button></a>
-            <a href="/register.html"><button type="button" class="btn btn-warning">Sign-up</button></a>
-          </div>
+<header class="p-3 text-bg-primary">
+  <div class="container">
+    <nav>
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <a href="/post/index.html"><button type="button" class="btn btn-warning">Posts</button></a>
+          <a href="/profile/edit"><button type="button" class="btn btn-light">Profile</button></a>
+        </ul>
+        <div class="text-end">
+          <a href="/login.html"><button type="button" class="btn btn-light">Login</button></a>
+          <a href="/register.html"><button type="button" class="btn btn-warning">Sign-up</button></a>
+          <button type="button" class="btn btn-warning">Log out</button>
         </div>
-      </nav>
-    </div>
-  </header> 
+      </div>
+    </nav>
+  </div>
+</header>  
+<body>
   
   <main>
     <div class="container">
       <div class="row">
         <div class="col-10 col-md-7 col-lg-5 mt-5">
-          <form action="post/index.html" id="login">
+          <form id="login">
             <h1 class="h3 mb-3 fw-normal">login</h1>
     
             <!-- EMAIL -->
