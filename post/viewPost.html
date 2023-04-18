@@ -15,18 +15,15 @@
   <!-- HEADER -->
   <header class="p-3 text-bg-primary">
     <div class="container">
-      <nav>
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-            <a href="/post/index.html" class="btn btn-warning">Posts</a>
-            <a href="/profile/edit" class="btn btn-light">Profile</a>
-          </ul>
-          <div class="text-end">
-            <a href="/login.html" class="btn btn-light">Login</a>
-            <a href="/register.html" class="btn btn-warning">Sign-up</a>
-            <button type="button" class="btn btn-warning">Log out</button>
-          </div>
-        </div>
+      <nav class="navbar">
+        <input type="checkbox" id="burger-toggle">
+        <label class="burger-label" for="burger-toggle">&#9776;</label>
+        <ul class="links">
+            <li><a href="/post/index.html">Posts</a></li>
+            <li><a href="/profile/edit">Profile</a></li>
+            <li><a href="/login.html" >Login</a></li>
+            <li><a href="/register.html" >Sign-up</a></li>
+        </ul>
       </nav>
     </div>
   </header>  
