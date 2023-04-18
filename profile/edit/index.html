@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/dist/css/styles.css">
+    <script src="/src/scripts/index.mjs" defer type="module"></script>
+    <title>Edit profile</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="p-3 text-bg-primary">
+    <div class="container">
+      <nav class="navbar">
+        <input type="checkbox" id="burger-toggle">
+        <label class="burger-label" for="burger-toggle">&#9776;</label>
+        <ul class="links">
+            <li><a href="/post/index.html">Posts</a></li>
+            <li><a href="/post/create.html" >Create post</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>  
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-10 col-md-7 col-lg-5 mt-5">
+
+
+
+            <form action="######" id="editProfile">
+                <h1 class="h3 mb-3 fw-normal">Edit profile</h1>
+
+    
+                <div class="form-floating mb-3">
+                    <input type="text" name="name" class="form-control" disabled>
+                    <label for="floatingInput">Name</label>
+                </div>
+                
+                <div class="form-floating mb-3">
+                    <input type="email" name="email" class="form-control" disabled>
+                    <label for="floatingInput">Email</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="text" name="banner" class="form-control">
+                    <label for="floatingInput">Banner</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="url" name="avatar" class="form-control">
+                    <label for="floatingInput">Avatar</label>
+                </div>
+    
+    
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Update profile</button>
+            </form>
+
+
+
+      </div>
+    </div>
+  </div>
+</main>
+
+</body>
+</html>

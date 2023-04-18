@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/dist/css/styles.css">
+    <script src="/src/scripts/index.mjs" defer type="module"></script>
+    <title>Register page</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="p-3 text-bg-primary">
+    <div class="container">
+      <nav class="navbar">
+        <input type="checkbox" id="burger-toggle">
+        <label class="burger-label" for="burger-toggle">&#9776;</label>
+        <ul class="links">
+            <li><a href="/post/index.html">Posts</a></li>
+            <li><a href="/profile/edit">Profile</a></li>
+            <li><a href="/login.html" >Login</a></li>
+            <li><a href="/post/create.html" >Create post</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>  
+  
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-10 col-md-7 col-lg-5 mt-5">
+          <form action="post/index.html" id="register">
+            <h1 class="h3 mb-3 fw-normal">Register</h1>
+            <!-- NAME -->
+            <div class="form-floating mb-3">
+              <input type="name" name="name" class="form-control" id="floatingInput name" placeholder="Name" pattern="^[\w]+$" required>
+              <label for="floatingInput">Name</label>
+            </div>
+            <!-- EMAIL -->
+            <div class="form-floating mb-3">
+              <input type="email" name="email" class="form-control" id="floatingInput email" placeholder="name@example.com" pattern="^[\w\-.]+@(stud.)?noroff.no$" required>
+              <label for="floatingInput">Email address</label>
+            </div>
+            <!-- PASSWORD -->
+            <div class="form-floating mb-3">
+              <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password" minLength= "8" required>
+              <label for="floatingPassword">Password</label>
+            </div>
+            <!-- IMAGE -->
+            <div class="form-floating mb-3">
+              <input type="link" name="" class="form-control" id="floatingInput" placeholder="Image">
+              <label for="floatingInput">Image</label>
+            </div>
+            <!-- REMEMBER ME TICK -->
+            <div class="checkbox mb-3">
+              <label>
+                <input type="checkbox" value="remember-me"> Remember me
+              </label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Register</button>
+            <p class="mt-5 mb-3 text-muted">© 2023</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+
+</body>
+</html>
