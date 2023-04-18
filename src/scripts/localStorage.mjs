@@ -11,7 +11,6 @@ export function load(key, value){
     }
 };
 
-
 export function remove(key, value){
     localStorage.removeItem('token');
     localStorage.removeItem('profile');
